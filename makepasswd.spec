@@ -1,12 +1,12 @@
 Summary:	Generates (pseudo-)random passwords
 Summary(pl):	Generowanie (pseudo-)losowych hase³
 Name:		makepasswd
-Version:	0.4.1
+Version:	0.4.2
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	ftp://ftp.defora.org/pub/projects/makepasswd/%{name}-%{version}.tar.gz
-# Source0-md5:	3759881f5957a72e3e4d201c50362b67
+# Source0-md5:	ef95058753742d25f070628166d84815
 URL:		http://www.defora.org/projects/makepasswd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
