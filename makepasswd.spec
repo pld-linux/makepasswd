@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Text
 Source0:	ftp://ftp.defora.org/pub/projects/makepasswd/%{name}-%{version}.tar.gz
 # Source0-md5:	ef95058753742d25f070628166d84815
-URL:		http://www.defora.org/projects/makepasswd
+URL:		http://www.defora.org/index.php?page=makepassw
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
