@@ -1,5 +1,5 @@
 Summary:	Generates (pseudo-)random passwords
-Summary(pl):	Generuje (pseudo-)losowe has³a
+Summary(pl):	Generowanie (pseudo-)losowych hase³
 Name:		makepasswd
 Version:	0.4.1
 Release:	1
@@ -15,15 +15,17 @@ Makepasswd generates (pseudo-)random passwords of a desired length. It
 is able to generate its crypted equivalent.
 
 %description -l pl
-Makepasswd generuje (pseudo-)losowe has³a o ¿±danej d³ugosci. Potrafi
-generowaæ ich cryptowane odpowiedniki.
+Makepasswd generuje (pseudo-)losowe has³a o ¿±danej d³ugo¶ci. Potrafi
+generowaæ ich zaszyfrowane odpowiedniki.
 
 %prep
 %setup -q
 
 %build
 %{__make} \
-	PREFIX=%{_prefix}
+	PREFIX=%{_prefix} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -Wall -ansi"
 
 %install
 rm -rf $RPM_BUILD_ROOT
