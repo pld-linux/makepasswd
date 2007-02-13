@@ -1,5 +1,5 @@
 Summary:	Generates (pseudo-)random passwords
-Summary(pl.UTF-8):   Generowanie (pseudo-)losowych haseł
+Summary(pl.UTF-8):	Generowanie (pseudo-)losowych haseł
 Name:		makepasswd
 Version:	0.4.2
 Release:	1
